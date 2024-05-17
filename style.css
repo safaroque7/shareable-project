@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer {
+    background: gray;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.main-body {
+    margin: 10px 0;
+}
+
+.side-menu-bar {
+    background: gray;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+}
+
+.display-none{
+    display: none;
+}
